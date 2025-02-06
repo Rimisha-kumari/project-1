@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+.main{
+    background-image: url(assets/images/coffeemug.jpg);
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: none;
+    height: 90vh;
+    position: relative;
+}
+body{
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    margin: auto;
+    color: white;
+    justify-content:right;
+    align-items:center;
+    margin: auto;
+    max-width: 80vw;
+    height: 62px;
+    gap: 84px;
+    z-index: 10;
+}
+nav a:hover{
+    background-color: rgb(174, 214, 207);
+}
+.text {
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* position: relative;
+    left: 55vw;
+    top:15vh */
+    height: calc(100%-62px);
+    align-items:center;
+    justify-content:center;
+    z-index: 10;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+    top:12vh;
+    /* left:25vw; */
+    float:right;
+}
+
+
+
+.about h1>img{
+    position: relative;
+    top:3vh;
+    
+}
+.text > h3{
+    font-weight: 20px;
+}
+.text h1{
+    font-size: 50px;
+}
+.btn button{
+   border: 2px solid rgb(36, 14, 77);
+   color: rgb(41, 18, 18);
+   background-color: rgb(233, 162, 104);
+   padding: 10px;
+   border-radius: 20px;
+   
+}
+
+.seperate{
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    top:80vh;
+}
+
+
+ .about{
+    /* position: relative;
+    top:100vh; */
+    color:white;
+    padding: 100px;
+    
+ }
+ .about h1{
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .about p{
+    display: row;
+    position: relative;
+    top:9vh;
+    /* padding: 5px; */
+ }
+ .about img{
+    float: right;
+    height: 60vh;
+    width: 35vw;
+    border: 2px solid rgb(228, 170, 215);
+    border-radius: 50%;
+    position: relative;
+    bottom: 10vh;
+ }
+ .seperate2{
+    height: 2px;
+    background-color: gray;
+    position: relative;
+    
+ }
+ .menu{
+    color:white;
+    padding: 100px;
+    
+ }
+ .menu h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 9vh;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ .menu img{
+    border: 2px solid rgb(40, 46, 46);
+    height: 30vh;
+    width: 20vw;
+    border-radius: 50%;
+    display: flex;
+    box-shadow: 0 0 20px 0px rgba(167, 111, 111, 0.692);
+ }
+ .menu button{
+    border: 2px solid rgb(67, 77, 71);
+    color: rgb(243, 13, 13);
+    background-color: rgb(23, 8, 90);
+    padding: 4px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px 0 px rgb(136, 121, 190) ;
+ }
+ .menu{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    margin: 4px;
+    position: relative;
+    top:15vh;
+
+     /* justify-content: center;  */
+    /* align-items: center; */
+ }
+ .menu button a:hover{
+   background-color: aquamarine;
+ }
+ .menu h2{
+   position: relative;
+   bottom: 8vh;
+   left: 5vw;
+ }
+ .seperate3{
+   height: 2px;
+   background-color: gray;
+   position: relative;
+   top: 30vh;
+}
+/* .address{
+   
+   color: white;
+   border: 2px solid rgb(57, 196, 80);
+   height: 20vh;
+
+}
+    */
+    .end{
+       padding: 100px;
+       position: relative;
+       top: 30vh;
+       
+       color: white;
+    }
+    .end>h1{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 44px;
+      font-weight: 400px;
+    }
+    .end h2{
+      font-weight: 5px;
+    }
+    .end > img{
+     
+      border: 2px solid rgb(75, 46, 46);
+      height: 30vh;
+      width: 20vw;
+      
+      padding: 5px;
+      margin: 4px;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content:center;
+      float: right;
+      border-radius: 50%;
+    
+    }
+    .last ul li{
+      font-family:'Times New Roman', Times, serif;
+      color: aqua;
+      position: relative;
+      top: 10vh;
+    }
+
+ 
+ 
